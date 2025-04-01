@@ -1,0 +1,111 @@
+{
+	"id": "d652acff-dd72-4cdb-80ac-d3d53cffd2bc",
+	"values": [
+		{
+			"key": "authorization",
+			"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxhdXJhLm1lbGxvQGdsb2JvLmNvbSIsInBhc3N3b3JkIjoiJHdVJU9LQjhZNygyIiwiaWF0IjoxNzQzNDI5MjAzLCJleHAiOjE3NDM0Mjk4MDN9.N4HQamy2r-kmuNJGPH0uAuAPGq43E6TR_52VrPKDOVE",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "delete_id",
+			"value": "C1ghovdw1kyKQuAJ",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "usuario_id",
+			"value": "0u69AcC0fr5feLEX",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "delete_usuario",
+			"value": "vekuUSBNOUtgNPy4",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "produto_id",
+			"value": "3nMpQ2S9Ok2YSFn4",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "produtoAtualizado",
+			"value": "{\"nome\":\"Fantastic Soft Chair - Atualizado\",\"preco\":500,\"descricao\":\"Carbonite web goalkeeper gloves are ergonomically designed to give easy fit - Atualizado\",\"quantidade\":11}",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "produto",
+			"value": "[{\"_id\":\"3nMpQ2S9Ok2YSFn4\",\"quantidade\":10},{\"_id\":\"4R02iSxiOjUY5rot\",\"quantidade\":5}]",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "delete_produto",
+			"value": "bQrpdZ3IMa2XpN8w",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "carrinho_id",
+			"value": "qbMqntef4iTOwWfg",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "produto1",
+			"value": "13gDDbqO6qkl7XRw",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "produto2",
+			"value": "1WdupZSK6ZSpuevc",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "produtocarrinho",
+			"value": "{\"produtos\":[{\"idProduto\":\"3nMpQ2S9Ok2YSFn4\",\"quantidade\":10},{\"idProduto\":\"4R02iSxiOjUY5rot\",\"quantidade\":5}]}",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "nomeCompleto",
+			"value": "Bruno Xavier",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "email",
+			"value": "bruno.xavier@r7.com",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "senha",
+			"value": "SYv[DuIVGGV?",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "id_carrinho",
+			"value": "PYPX6yqNalSsxor5",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "baseUrl",
+			"value": "https://serverest.dev/",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2025-03-31T22:12:02.926Z",
+	"_postman_exported_using": "Postman/11.37.4"
+}
