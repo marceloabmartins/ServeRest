@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/upload-artifact@v2.3.1
 
       - name: Check version of Newman and Node
         run: |
@@ -28,7 +28,7 @@ jobs:
         run: newman run ./ServeRest_collection.json -g serverest_globals.json -r htmlextra --reporter-html-export ./newman/resultado.html
 
       - name: Upload test report artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2.3.1
         with:
           name: report
           path: ./newman/resultado.html
