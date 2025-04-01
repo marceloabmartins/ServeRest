@@ -1,4 +1,4 @@
-name: Signup
+name: ServeRest
 
 on:
   push:
@@ -25,7 +25,7 @@ jobs:
         run: mkdir -p newman
 
       - name: Execute Postman collection
-        run: newman run ./ServeRest_collection.json -g serverest_globals.json -r htmlextra --reporter-html-export ./newman/resultado.html
+        run: newman run ./ServeRest_collection.json -g serverest_globals.json -r htmlextra --reporter-html-export
 
       - name: Upload test report artifact
         uses: actions/upload-artifact@v4
