@@ -25,7 +25,7 @@ jobs:
         run: mkdir -p newman
 
       - name: Execute Postman collection
-        run: newman run ./ServeRest_collection.json -g serverest_globals.json --delay-request 1
+        run: newman run ./ServeRest_collection.json -g serverest_globals.json --delay-request 1 -r htmlextra --reporter-html-export
 
       - name: Upload test report artifact
         uses: actions/upload-artifact@v4
